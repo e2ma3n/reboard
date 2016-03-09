@@ -1,0 +1,52 @@
+Programming and idea by : E2MA3N [Iman Homayouni]
+Github : https://github.com/e2ma3n
+Email : e2ma3n@Gmail.com
+Website : http://OSLearn.ir
+License : GPL v3.0
+reboard v1.0 [ easy reboot or shutdown routerboard ]
+
+
+Description :
+This program written by E2MA3N for easy reboot or shutdown routerboard, this program run command on router using ssh protocol.
+
+
+Dependencies :
+	1. whoami
+	2. sleep
+	3. cat
+	4. head
+	5. tail
+	6. cut
+	7. nano
+	8. openssl
+	9. sshpass
+
+
+Install reboard v1.0 :
+	1. chmod +x install.sh
+	2. sudo ./install.sh -i
+
+
+Check dependencies :
+	1. chmod +x install.sh
+	2. sudo ./install.sh -c
+
+
+Usage reboard v1.0 :
+	1. sudo reboard
+
+
+Uninstall reboard v1.0 :
+	1. rm -rf /opt/reboard_v1/
+	2. rm -f /usr/bin/reboard
+
+
+Notes :
+	1. You should run program as root
+	2. You should edit config file
+	3. SSH service should run in router and active in firewall
+
+
+Testes reboard v1.0 in :
+	1. Debian 8.1.0 64bit netinst, 3.16.0-4-amd64
+	2. LMDE 2 64bit, 3.16.0-4-amd64
